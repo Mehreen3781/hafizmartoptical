@@ -1012,3 +1012,31 @@ background: white;
     }
   
 
+.google-rating {
+    border-top: 1px solid #eee;
+}
+
+.rating-stars {
+    font-size: 28px;
+    color: #f4c542;
+}
+
+.google-btn {
+    display: inline-block;
+    color: var(--navy-light);
+    padding: 12px 30px;
+    border-radius: 50px ;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+    border-color: var(--gold);
+}
+
+.google-btn:hover {
+    transform: scale(1.05);
+    background-color: var(--navy);
+    color:white;
+
+}
+
